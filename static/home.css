@@ -1,0 +1,25 @@
+.home-create-box {
+    padding: 1rem;
+}
+
+.home-create-box .form-box {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15)
+}
+
+.title {
+    padding: 0;
+    text-align: center;
+}
+
+.home-create-box .compare-input {
+    margin-bottom: 1rem;
+}
+
+.card {
+    -webkit-box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+}

@@ -1,0 +1,141 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nanum Gothic', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #eceff1;
+}
+
+.p-unstyled {
+    margin: unset;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.padding-15 {
+    padding: 0 15px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.w-fluid {
+    width: 100%;
+}
+
+.padding-unstyled {
+    padding: unset;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.margin-unstyled {
+    margin: 0;
+}
+
+.margin-top-btm-lg {
+    margin: 2rem 0;
+}
+
+.margin-top-lg {
+    margin: 2rem;
+}
+
+.margin-btm-lg {
+    margin-bottom: 2rem;
+}
+
+.margin-top-btm-md {
+    margin: 1rem 0;
+}
+
+.margin-top-md {
+    margin: 1rem;
+}
+
+.margin-btm-md {
+    margin-bottom: 1rem;
+}
+
+.margin-btm-high
+
+/* flex box */
+.row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.col-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.row-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+
+.row-centering {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-centering {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.col-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
